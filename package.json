@@ -2,8 +2,8 @@
   "name": "wuit-icons",
   "version": "0.0.4",
   "description": "Icon automation workflow with Figma",
-  "main": "dist/juuust-react-icon.cjs.js",
-  "module": "dist/juuust-react-icon.esm.js",
+  "main": "dist/wuit-react-icon.cjs.js",
+  "module": "dist/wuit-react-icon.esm.js",
   "typings": "dist/icons.d.ts",
   "files": [
     "dist"
@@ -20,9 +20,9 @@
     "design"
   ],
   "bugs": {
-    "url": "https://github.com/Mart1M/Hive-Icons/issues"
+    "url": "https://github.com/Mart1M/Wuit-Icons/issues"
   },
-  "homepage": "https://github.com/Mart1M/Hive-Icons#readme",
+  "homepage": "https://github.com/Mart1M/Wuit-Icons#readme",
   "scripts": {
     "fetch": "node bin/fetchSVG.js",
     "generate": "sudo rm -rf src/icons && node bin/build.js",
