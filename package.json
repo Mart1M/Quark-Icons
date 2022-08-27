@@ -1,6 +1,6 @@
 {
   "name": "quark-icons",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Icon automation workflow with Figma",
   "main": "dist/quark-react-icon.cjs.js",
   "module": "dist/quark-react-icon.esm.js",
