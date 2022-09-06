@@ -7,3 +7,4 @@ Quark Icons is a set of open-source icons for designers and developers. Each ico
 ```jsx
 npm i quark-icons
 ```
+
