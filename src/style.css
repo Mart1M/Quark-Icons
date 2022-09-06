@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Source+Code+Pro&display=swap');
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+}
+
+.header {
+    display: grid;
+    justify-items: center;
+    padding: 96px;
+    row-gap: 16px;
+}
+
+.icon-container {
+    border: 1px solid #D7D7D7;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.label {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.label:hover {
+    cursor: pointer;
+}
+
+.npm-command {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.npm-command-content:hover {
+    cursor: pointer;
+}
+
+.npm-command-content {
+    border: 1px solid #D7D7D7;
+    padding: 16px;
+    border-radius: 4px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.npm-command-copy {
+    color: #989898;
+}
+
+.btn-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8px;
+}
+
+.btn {
+    border-radius: 8px;
+    padding: 16px 24px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.primary {
+    background: linear-gradient(97.62deg, #886AFF 0.68%, #4128DE 100%);
+    color: white;
+}
+
+.secondary {
+    border: 1px solid #DEDEDE;
+    color: #2B2B2B;
+    ;
+}

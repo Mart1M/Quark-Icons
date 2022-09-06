@@ -8,6 +8,7 @@ const IconWrapper = styled.a`
   svg{
     margin: 36px 0;
   }
+  padding: 8px;
 `
 
 export default ({children}) =>
